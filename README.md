@@ -2,6 +2,8 @@
 
 Be sure you understand what you are doing. No actually, it really doesn't matter.
 
+Note: the base portfolio is actually a website published at https://fenollp.github.io/portfolio-base/
+
 ## Syntax
 
 You can put HTML anywhere you want!
