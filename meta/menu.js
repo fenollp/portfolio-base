@@ -1,16 +1,18 @@
 var menu = " \
-    <div id=\"menu\" data-markdown> \
-      [portfolio](/index.htm) \
+    <div id='menu' data-markdown> \
+      [PORTFOLIO]("+ROOT+"index.htm) \
       <br/> \
       <br/> \
-      [contact](/contact.htm) \
+      [contact]("+ROOT+"contact.htm) \
       <br/> \
-      [a section](a_section/) \
+      [a section]("+ROOT+"a_section) \
       <br/> \
       <br/> \
-      # Menu 1 \
+      # **Menu I** \
       <br/> \
-      ## [Sub-menu 1](/kiosk.htm) \
+      #### [A kiosk]("+ROOT+"kiosk.htm) \
       <br/> \
     </div> \
 ";
+
+document.write(menu);

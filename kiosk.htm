@@ -1,40 +1,23 @@
 <!DOCTYPE html>
-<!-- Saved from elsafarbos.com. Kudos to www.indexhibit.org and git.io/data-markdown.
+<!-- Saved from elsafarbos.com. Kudos to indexhibit.org and git.io/data-markdown.
      Put together by Pierre Fenoll -->
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html xmlns="//www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>PORTFOLIO ~ A kiosk</title>
+    <script type="text/javascript">
+      ROOT = './';
+    </script>
     <script type="text/javascript" src="meta/menu.js"></script>
-    <script type="text/javascript" src="meta/jquery.min.js"></script>
-    <script type="text/javascript" src="meta/jquery.cycle.all.js"></script>
     <link type="text/css" rel="stylesheet" href="meta/style.css"/>
     <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src='//html5shim.googlecode.com/svn/trunk/html5.js'></script>
     <![endif]-->
     <!--[if lte IE 6]>
         <link rel='stylesheet' href='meta/ie.css' type='text/css'/>
     <![endif]-->
   </head>
   <body>
-    <script type="text/javascript">
-      ROOT = '.';
-      document.write(menu);
-      $(document).ready(function () {
-          $("#k1").cycle({
-              fx: "fade", speed: "2000",
-              timeout: 0,
-              next: "#k1-next", prev: "#k1-prev" });
-
-          $(document).keydown(function(evt) {
-              if (evt.keyCode == 39) // Right Arrow
-                  $("#k1-next").click();
-              if (evt.keyCode == 37) // Left Arrow
-                  $("#k1-prev").click();
-        });
-      });
-    </script>
-
     <div id="content" data-markdown>
       ## Kiosk
       <br/>
@@ -59,5 +42,22 @@
     </div>
 
     <script type="text/javascript" src="meta/data-markdown.user.js"></script>
+    <script type="text/javascript" src="meta/jquery.min.js"></script>
+    <script type="text/javascript" src="meta/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+          $("#k1").cycle({
+              fx: "fade", speed: "2000",
+              timeout: 0,
+              next: "#k1-next", prev: "#k1-prev" });
+
+          $(document).keydown(function(evt) {
+              if (evt.keyCode == 39) // Right Arrow
+                  $("#k1-next").click();
+              if (evt.keyCode == 37) // Left Arrow
+                  $("#k1-prev").click();
+        });
+      });
+    </script>
   </body>
 </html>
