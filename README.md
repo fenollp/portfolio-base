@@ -79,6 +79,14 @@ To do so,
 Troubleshooting: //help.github.com/articles/setting-up-a-custom-domain-with-github-pages
 
 
+### Projects based upon portfolio-base
+
+* [github.com/irmakalt/portfolio](//irmakalt.com)
+* [github.com/Fenollo/portfolio](//gilles.fenoll.me)
+* [github.com/moltmoltmolt/portfolio](//www.mathildefenoll.com)
+* [github.com/moltmoltmolt/silenceforet](//www.silenceforet.com)
+
+
 ### This all relies on
 
 https://pages.github.com/
