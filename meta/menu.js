@@ -5,6 +5,7 @@ var menu = " \
       <br/> \
       [contact](/contact.htm) \
       <br/> \
+      [a section](a_section/) \
       <br/> \
       <br/> \
       # Menu 1 \
