@@ -81,10 +81,10 @@ Troubleshooting: //help.github.com/articles/setting-up-a-custom-domain-with-gith
 
 ### Projects based upon portfolio-base
 
-* [github.com/irmakalt/portfolio](//irmakalt.com)
-* [github.com/Fenollo/portfolio](//gilles.fenoll.me)
-* [github.com/moltmoltmolt/portfolio](//www.mathildefenoll.com)
-* [github.com/moltmoltmolt/silenceforet](//www.silenceforet.com)
+* [github.com/irmakalt/portfolio](http://irmakalt.com)
+* [github.com/Fenollo/portfolio](http://gilles.fenoll.me)
+* [github.com/moltmoltmolt/portfolio](http://www.mathildefenoll.com)
+* [github.com/moltmoltmolt/silenceforet](http://www.silenceforet.com)
 
 
 ### This all relies on
