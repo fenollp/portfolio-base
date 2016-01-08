@@ -1,6 +1,6 @@
 var menu = " \
     <div id='menu' data-markdown> \
-      [PORTFOLIO]("+ROOT+"index.htm) \
+      [PORTFOLIO]("+ROOT+") \
       <br/> \
       <br/> \
       [contact]("+ROOT+"contact.htm) \
