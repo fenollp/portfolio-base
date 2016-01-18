@@ -31,6 +31,7 @@ The Menu is to be written in MarkDown too.
 ## Adding Pages
 
 The easiest to add pages is to:
+
 1. create a folder named after the new section you are creating (e.g.: `art2016`)
 1. copy-paste one page that you like in this folder
 1. name the new page `index.htm`
@@ -60,6 +61,7 @@ You could name the page differently of course (e.g.: `my_page.htm`) as long as i
 Before `sync.sh`-ing your changes and to save iteration time, you may want to “test” your website locally.
 
 To do so, open the `Terminal` and:
+
 1. `cd` into your portfolio project
 1. start a simple daemon: `python -m SimpleHTTPServer 1337`
 1. Open your browser at http://localhost:8080
@@ -72,6 +74,7 @@ Buy a domain name (`something.me`, `bla.fr`, `coucou.in`, …) at a place like [
 Once you bought your own domain name, like: `mywebsite.com`, you can set up your domain name provider's DNS to redirect to your portfolio project.
 
 To do so,
+
 1. Edit `CNAME` and replace `mywebsite.com` with your own domain (don't forget to `sync.sh`)
 1. On the DNS panel, add a **CNAME Record** with Name: `mywebsite.com` & Value: `MY_GITHUB_USERNAME.github.io`
 1. You may also need to set up 2 **A Records** with Name: `mywebsite.com` & Values: `192.30.252.153` & `192.30.252.154`
